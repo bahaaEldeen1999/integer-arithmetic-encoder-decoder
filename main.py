@@ -51,7 +51,7 @@ def getUpper(j):
 # for i in range(1,limits.size):
 #     print('pixel '+ str(i) + ' upper limit '+str(limits[i]) + ' in frequency '+str(freq_arr[i-1]))
 
-percesion = 50
+percesion = 63
 whole = pow(2,percesion) # represent 1 in float
 half = whole/2
 quarter = whole/4
