@@ -7,9 +7,9 @@ i made the integer arithmetic coding to handle finite precision, and it will enc
 ## Encoding 
 
 ### install the required dependencies
-> pip install opencv-python
-> pip install numpy
-> pip install matplotlib
+> pip install opencv-python<br>
+> pip install numpy<br>
+> pip install matplotlib<br>
 
 ### run encode.py file
 > python encode.py
