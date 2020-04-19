@@ -2,7 +2,7 @@
 
 ## implementing the finite intger precision arithmetic encoder/decoder in python
 
-i made the integer arithmetic coding to handle finite precision, and it will encode and decode image in grauscale not RGB 
+i made the integer arithmetic coding to handle finite precision, and it will encode and decode image in grayscale not RGB 
 
 ## Encoding 
 
@@ -23,7 +23,7 @@ i made the integer arithmetic coding to handle finite precision, and it will enc
 ### enter the precision you want eg : 
 > 63
 
-the code will run for a while and will then generate 2 ".npy" files, the "code.npy" gile contain the arithmetic code, the second "limits.npy" file will contain the cummulative sum of frequencies of pixel images that appear in image (no need to worry about it just give it to the decoder so it can decode the image correctly :) )
+the code will run for a while and will then generate 2 ".npy" files, the "code.npy" file contain the arithmetic code, the second "limits.npy" file will contain the cummulative sum of frequencies of pixel images that appear in image (no need to worry about it just give it to the decoder so it can decode the image correctly :) )
  
 ## Decoding 
 
